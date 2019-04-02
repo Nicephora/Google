@@ -1,0 +1,144 @@
+body {
+  margin: auto;
+  font-family: arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px
+}
+
+button {
+  border-radius: 3px;
+  background-color: #4285f4;
+  border-color: #46a2db;
+  color: white;
+  margin-left: 5px;
+  box-shadow: none;
+}
+
+.options_nav {
+  margin: 5px
+}
+
+.logo_Input {
+  display: flex;
+  flex-direction: column;
+}
+
+.bouton_Recherche {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  width: 272px;
+  height: 92px;
+  margin: auto;
+  padding: 100px 0 20px;
+}
+
+#menu {
+  width: 18px;
+  height: 18px;
+  filter: opacity(50%);
+  -webkit-filter: opacity(50%);
+  -moz-filter: opacity(50%);
+  -o-filter: opacity(50%);
+  -ms-filter: opacity(50%);
+}
+
+#menu:hover {
+  filter: opacity(100%);
+  -webkit-filter: opacity(100%);
+  -moz-filter: opacity(100%);
+  -o-filter: opacity(100%);
+  -ms-filter: opacity(100%);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input {
+  margin: auto;
+  border-radius: 30px;
+  border-color: #e8e8e8;
+  height: 30px;
+  width: 400px;
+  padding: 6px 15px 6px 15px
+}
+
+input:hover {
+  box-shadow: 1px -1px 4px 0 #EFEFEF,
+    -1px 1px 4px 0 #EFEFEF,
+    -1px -1px 4px 0 #EFEFEF,
+    1px 1px 4px 0 #EFEFEF;
+}
+
+.recherche {
+  background-color: #f2f2f2;
+  color: #5F6368;
+  border-color: #f2f2f2;
+  margin: 11px 4px;
+  height: 36px;
+  width: 150px;
+}
+
+.recherche:hover {
+  border: 1px solid #dcdcdc;
+}
+
+.chance {
+  padding: 8px 20px 8px 20px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+  border-color: #f2f2f2;
+  margin: 11px 4px;
+  height: 36px;
+  width: 150px;
+}
+
+.chance:hover {
+  border: 1px solid #dcdcdc;
+}
+
+.footer {
+  padding-top: 150px;
+}
+
+.footer_bar {
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+}
+
+.footer_Up {
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.footer_Down {
+  border-top: 1px solid #e4e4e4;
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  margin-left: 20px;
+
+}
+
+.footer_Left {
+
+}
+
+.footer_Right {
+  flex
+}
